@@ -1,0 +1,36 @@
+@media (width >= 768px) {
+	@for $i from 1 through 5 {
+		.wp-block-f0xn0v4-masonry-gallery__inner-blocks.col-l-#{$i}{
+			column-count: $i;
+		}
+	}
+}
+
+@media (width > 480px) and (width < 767px) {
+	@for $i from 1 through 5 {
+		.wp-block-f0xn0v4-masonry-gallery__inner-blocks.col-m-#{$i}{
+			column-count: $i;
+		}
+	}
+}
+
+@media (width <= 480px){
+	@for $i from 1 through 5 {
+		.wp-block-f0xn0v4-masonry-gallery__inner-blocks.col-s-#{$i}{
+			column-count: $i;
+		}
+	}
+}
+
+.wp-block-f0xn0v4-masonry-gallery__inner-blocks {
+	column-gap: var(--image-spacing);
+}
+
+.wp-block-f0xn0v4-masonry-gallery__inner-blocks .wp-block-image {
+	margin-bottom: var(--image-spacing);
+}
+
+.wp-block-f0xn0v4-masonry-gallery .wp-block-image img {
+	width: 100%;
+	height: auto;
+}
