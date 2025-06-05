@@ -79,7 +79,7 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 									},
 									lock: { move: true, remove: true },
 								},
-								[["core/post-title", {}]],
+								[["core/post-title", {isLink: true, linkTarget:"_self"}]],
 							],
 						],
 					],
