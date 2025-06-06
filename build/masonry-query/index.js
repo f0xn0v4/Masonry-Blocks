@@ -103,10 +103,16 @@ function Edit({
     }], ["core/group", {
       className: `wp-block-f0xn0v4-masonry-query__card`,
       layout: {
-        type: 'flex',
-        orientation: 'vertical',
-        justifyContent: 'center',
-        verticalAlignment: 'center'
+        type: "flex",
+        orientation: "vertical",
+        justifyContent: "center",
+        verticalAlignment: "center"
+      },
+      style: {
+        spacing: {
+          padding: "5%",
+          blockGap: "2.5%"
+        }
       },
       lock: {
         move: true,

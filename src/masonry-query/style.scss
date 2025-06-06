@@ -36,7 +36,12 @@
 	break-inside: avoid;
 }
 
-.wp-block-f0xn0v4-masonry-query__card {
+.wp-block-f0xn0v4-masonry-query li:not(:has(.wp-block-f0xn0v4-masonry-query__featured-image)) .wp-block-f0xn0v4-masonry-query__card {
+	position: relative !important;
+	opacity: 1;
+}
+
+.wp-block-f0xn0v4-masonry-query li:has(.wp-block-f0xn0v4-masonry-query__featured-image) .wp-block-f0xn0v4-masonry-query__card{
 	position: absolute !important;
 	opacity: 0;
 	transition: opacity 0.25s ease;
