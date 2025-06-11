@@ -93,6 +93,12 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 							],
 						],
 					],
+					[
+						"core/query-pagination",
+					],
+					[
+						"core/query-no-results",
+					]
 				],
 			],
 		],
