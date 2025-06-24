@@ -21,5 +21,4 @@
  */
  
 /* eslint-disable no-console */
-console.log("Hello World! (from f0xn0v4-masonry-gallery block)");
 /* eslint-enable no-console */

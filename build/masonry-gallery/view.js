@@ -1,1 +1,0 @@
-console.log("Hello World! (from f0xn0v4-masonry-gallery block)");
